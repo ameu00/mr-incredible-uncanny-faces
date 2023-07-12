@@ -1,8 +1,8 @@
 {
   "name": "mr-incredible-uncanny-faces",
-  "displayName": "Incredibly In Your Face",
-  "description": "In Your Face, shows you Incredible 'Uncanny Faces' that correlate to the number of errors in your code!",
-  "version": "2.0",
+  "displayName": "Mr. Incredible (Un)canny Faces",
+  "description": "A small Visual Studio Code extension to show Mr. Incredible's face becoming canny or uncanny depending of the number of warnings and errors you have in your code! ",
+  "version": "1.0.2",
   "publisher": "Antonin Meunier",
   "license": "MIT",
   "engines": {
@@ -16,13 +16,13 @@
     "theme": "dark"
   },
   "keywords": [
-    "uncanny",
-    "incredible",
-    "faces",
-    "canny"
+    "uncanny faces",
+    "mr incredible",
+    "canny faces",
+    "in your face"
   ],
   "__metadata": {
-    "publisherDisplayName": "VirejDasani"
+    "publisherDisplayName": "Antonin Meunier"
   },
   "activationEvents": [
     "onCommand:mr-incredible-uncanny.openview.focus",
@@ -34,7 +34,7 @@
       "activitybar": [
         {
           "id": "custom-activitybar",
-          "title": "Incredibly In Your Face",
+          "title": "Mr. Incredible (Un)canny Faces",
           "icon": "assets/logo_bito.svg"
         }
       ]
